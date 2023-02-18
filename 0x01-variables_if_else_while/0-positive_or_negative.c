@@ -12,7 +12,7 @@ int main(void)
 	int k;
 	time_t t;
 
-	srand(time($t));
+	srand(time(&t));
 	k = rand() % (98 + 1 - (-128)) + (-128);
 
 
