@@ -10,9 +10,10 @@
 int main(void)
 {
 	int k;
+	time_t t;
 
-	srand(time(0));
-	k = rand() - RAND_MAX / 2;
+	srand(time($t));
+	k = rand() % (98 + 1 - (-128)) + (-128);
 
 
 	if (k > 0)
