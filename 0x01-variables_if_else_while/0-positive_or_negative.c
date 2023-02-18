@@ -9,26 +9,10 @@
  */
 int main(void)
 {
-	int k,s,j;
-	time_t t;
+	int n;
 
-	srand(time(&t));
-	k = rand() % (98 + 1 - (-128)) + (-128);
-	j = rand() % (98 + 1 - (-128)) + (-128);
-	s = rand() % (98 + 1 - (-128)) + (-128);
-
-
-	if (k > 0)
-	{
-		printf("%i is positive\n", k);
-	}
-	if (j == 0)
-	{
-		printf("%i is zero\n", j);
-	}
-	if (s < 0)
-	{
-		printf("%i is negative\n", s);
-	}
-	return (s);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	return (0);
 }
