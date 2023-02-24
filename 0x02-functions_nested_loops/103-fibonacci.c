@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * fibonacci_3 - Prints the add of the even-valued
+ * main - Prints the add of the even-valued
  * fibonacci numbers.
  * Return: Always 0.
  */
