@@ -2,32 +2,25 @@
 
 /**
  * print_to_98 - Main programm function
- *@c: argument
+ *@n: argument
  * Return: always  (Success)
  */
-void print_to_98(int c)
+void print_to_98(int n)
 {
-	int x;
-
-	if (c < 0)
-		c = c * -1;
-	if (c <= 98)
+	if (n > 98)
 	{
-		for (x = c; c <= 98; x++)
+		for (; n > 98; n--)
 		{
-			_putchar(x + '0');
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 	}
-	else if (c >= 98)
+	else if (n < 98)
 	{
-		for (x = c; c >= 98; x--)
+		for (; n < 98; n++)
 		{
-			_putchar(x + '0');
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 	}
+	printf("%d\n", n);
 }
 
