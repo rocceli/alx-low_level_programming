@@ -3,7 +3,7 @@
  * main - Prints the first 98 Fibonacci numbers
  * Return: Always 0.
  */
-int fibonacci_4(void)
+int main(void)
 {
 	int c, boolean, boolean2;
 	long int n1, n2, fn, fn2, n11, n22;

@@ -5,7 +5,7 @@
  * main - Prints the add of the Fibonacci numbers
  * Return: Always 0.
  */
-int fibonacci_2(void)
+int main(void)
 {
 	int c;
 	long int n1, n2, fn;

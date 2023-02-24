@@ -5,7 +5,7 @@
  * fibonacci numbers.
  * Return: Always 0.
  */
-int fibonacci_3(void)
+int main(void)
 {
 	long int n1, n2, fn, afn;
 
