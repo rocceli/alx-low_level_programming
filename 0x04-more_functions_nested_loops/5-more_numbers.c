@@ -1,30 +1,23 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints 0 - 9 except 2, 3
- * Description: prints
- * Return: void
+ * more_numbers - nmbr fct
+ * Bwave ICT file
+ * Return: no return
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	char n, c;
-	int i = 0;
 
-	while (i < 10)
+int i, j;
+	for (i = 1; i <= 10; i++)
 	{
-		for (n = 0; n <= 14; n++)
+		for (j = 0; j <= 14; j++)
 		{
-			c = n;
-			if (n > 9)
-			{
-				_putchar('1');
-				c = n % 10;
-			}
-			_putchar('0' + c);
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
 		}
-
-		_putchar('\n');
-		i++;
-	}
+			_putchar('\n');
+		}
 }
