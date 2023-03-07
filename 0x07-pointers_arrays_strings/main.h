@@ -1,6 +1,7 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 
+void set_string(char **s, char *to);
 int _putchar(char);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
