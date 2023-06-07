@@ -3,23 +3,18 @@
 #include <stdlib.h>
 
 /**
- * main - check code
- *
- * Return: Always 0
- */
-/**
- * _strlen - returns the length of a string
- * @s: string to be checked
+ * _strlen - check the length of a string
+ *@a: string to be checked
  *
  * Return: length of string
  */
 
-int _strlen(char *s)
+int _strlen(char *a)
 {
 	int len;
 
 	len = 0;
-	while (*(s + len) != '\0')
+	while (*(a + len) != '\0')
 		len++;
 	return (len);
 }
